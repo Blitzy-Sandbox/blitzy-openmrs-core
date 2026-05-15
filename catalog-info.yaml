@@ -3,7 +3,8 @@ kind: Component
 metadata:
   name: blitzy-openmrs-core
   description: OpenMRS API and web application code
-  tags: []
+  tags:
+    - java
   annotations:
     github.com/project-slug: Blitzy-Sandbox/blitzy-openmrs-core
     backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-openmrs-core/tree/master/
@@ -13,3 +14,4 @@ spec:
   lifecycle: production
   owner: blitzy-sandbox
   system: blitzy-sandbox-projects
+
