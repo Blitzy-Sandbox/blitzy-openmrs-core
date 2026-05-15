@@ -1,0 +1,16 @@
+site_name: 'openmrs-core'
+site_description: 'OpenMRS patient-based medical record system platform'
+
+nav:
+  - Home: index.md
+  - Repository Overview: overview.md
+  - Build and Setup: setup.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - fenced_code
